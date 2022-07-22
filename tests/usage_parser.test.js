@@ -9,7 +9,7 @@ describe("UsageParser", () => {
         let expected;
 
         beforeEach(() => {
-          input = '7291,293451';
+          input = "7291,293451";
           expected = {
             id: 7291,
             bytes_used: 293451,
@@ -34,7 +34,7 @@ describe("UsageParser", () => {
         let expected;
 
         beforeEach(() => {
-          input = '7194,b33,394,495593,192';
+          input = "7194,b33,394,495593,192";
           expected = {
             id: 7194,
             bytes_used: 495593,
@@ -59,7 +59,7 @@ describe("UsageParser", () => {
         let expected;
 
         beforeEach(() => {
-          input = '316,0e893279227712cac0014aff';
+          input = "316,0e893279227712cac0014aff";
           expected = {
             id: 316,
             bytes_used: 12921,
@@ -127,6 +127,6 @@ describe("UsageParser", () => {
           expect(item).toEqual(expected[index]);
         });
       });
-  });
+    });
   });
 });
