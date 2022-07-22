@@ -1,0 +1,15 @@
+{
+  "name": "backend-take-home-test-v2-javascript",
+  "version": "1.0.0",
+  "description": "This is Hologram's take-home exercise for software engineers with a backend or full-stack focus.",
+  "main": "usage_parser.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "author": "Hologram, Inc.",
+  "devDependencies": {
+    "@jest/globals": "^28.1.3",
+    "jest": "^28.1.3"
+  }
+}
